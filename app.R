@@ -90,9 +90,13 @@ ui <- dashboardPage(
                       menuItem('IPL - Summary', tabName = 'summary', icon = icon('trophy')),
                       menuItem('Winning Toss Analysis', tabName = 'toss', icon = icon('id-card')),
                       menuItem('Most Successful Teams', tabName = 'teams', icon = icon('chart-bar')),
-                      menuItem('Top Performances - By Season', tabName = 'season', icon = icon('chart-bar'))
-                    )
+                      menuItem('Top Performances - By Season', tabName = 'season', icon = icon('chart-bar')),
+                      menuItem("Source code", 
+                               icon = icon("code"),
+                               href = "https://github.com/sunitiarora45/Indian-Premier-League/blob/main/app.R"))
+                  
   ),
+  
   dashboardBody(
     tabItems(
       
