@@ -1,5 +1,3 @@
-# Indian-Premier-League Analysis
-
 IPL Dashboard Application created using R for detailed data analysis. Application provides valuable insights into team and player performance, facilitating informed decisions for league growth and success.
 
 ## Context
